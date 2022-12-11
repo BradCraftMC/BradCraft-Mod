@@ -1,6 +1,7 @@
 package net.stayer.bradcraft;
 
 import net.fabricmc.api.ModInitializer;
+import net.stayer.bradcraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,5 +11,7 @@ public class BradCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
 	}
 }
