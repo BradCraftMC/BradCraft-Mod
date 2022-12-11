@@ -1,5 +1,11 @@
 {
   "item.bradcraft.taco": "Taco",
   "item.bradcraft.taco_shell": "Taco Shell",
-  "itemGroup.bradcraft.bradcraft": "BradCraft"
+  "itemGroup.bradcraft.bradcraft": "BradCraft",
+  "item.bradcraft.disc_married_life": "Music Disc",
+  "item.bradcraft.disc_married_life.desc": "Up - Married Life",
+  "item.bradcraft.drip_helmet": "Drip Helmet",
+  "item.bradcraft.drip_chestplate": "Drip Chestplate",
+  "item.bradcraft.drip_leggings": "Drip Leggings",
+  "item.bradcraft.drip_boots": "Drip Boots"
 }
