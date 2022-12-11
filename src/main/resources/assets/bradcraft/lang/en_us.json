@@ -7,5 +7,15 @@
   "item.bradcraft.drip_helmet": "Drip Helmet",
   "item.bradcraft.drip_chestplate": "Drip Chestplate",
   "item.bradcraft.drip_leggings": "Drip Leggings",
-  "item.bradcraft.drip_boots": "Drip Boots"
+  "item.bradcraft.drip_boots": "Drip Boots",
+  "item.bradcraft.jug": "Jug",
+  "item.bradcraft.water_jug": "Jug of Water",
+  "item.bradcraft.lava_jug": "Jug of Lava",
+  "item.bradcraft.battery_acid": "Battery Acid",
+  "item.bradcraft.glow_battery_acid": "Glowing Battery Acid",
+  "item.bradcraft.tater": "Tater",
+  "item.bradcraft.baked_tater": "Baked Tater",
+  "item.bradcraft.poisonous_tater": "Poisonous Tater",
+  "item.bradcraft.fall_dude_egg": "Fall Dude Egg",
+  "item.bradcraft.water_bottle": "Water Bottle"
 }

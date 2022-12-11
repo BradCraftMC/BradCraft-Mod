@@ -2,6 +2,7 @@ package net.stayer.bradcraft.item;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
@@ -12,7 +13,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     // Drip armor, item ingredient is a placeholder (REMEMBER TO CHANGE)
-    DRIP("drip", 25, new int[]{3, 5, 7, 4}, 12, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.TACO));
+    DRIP("drip", 25, new int[]{3, 5, 7, 4}, 12, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0f, 0.0f, () -> Ingredient.ofItems((ItemConvertible) ModFoodComponents.TACO));
 
 
     private static final int[] BASE_DURABILITY;
