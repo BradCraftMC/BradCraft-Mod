@@ -12,7 +12,7 @@ import static net.stayer.bradcraft.item.ModItemGroup.BRADCRAFT;
 
 public class BradCraft implements ModInitializer {
 	public static final String MOD_ID = "bradcraft";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final Logger LOGGER = LoggerFactory.getLogger("bradcraft");
 
 @Override
 	public void onInitialize() {
