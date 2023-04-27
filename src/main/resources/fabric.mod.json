@@ -4,17 +4,17 @@
   "version": "${version}",
 
   "name": "BradCraft",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "The official Minecraft mod of Bradley Richards.",
   "authors": [
     "5tayer"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/BradCraftMC/BradCraft-Mod"
   },
 
   "license": "MIT License",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/bradcraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -30,9 +30,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.14.18",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.19.4",
     "java": ">=17"
   },
   "suggests": {
