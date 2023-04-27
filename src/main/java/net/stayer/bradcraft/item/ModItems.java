@@ -31,16 +31,16 @@ public class ModItems {
 
     // Drip armor
     public static final Item DRIP_HELMET = registerItem("drip_helmet",
-            new ArmorItem(ModArmorMaterials.DRIP, EquipmentSlot.HEAD,
+            new ArmorItem(ModArmorMaterials.DRIP, ArmorItem.Type.HELMET,
                     new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item DRIP_CHESTPLATE = registerItem("drip_chestplate",
-            new ArmorItem(ModArmorMaterials.DRIP, EquipmentSlot.CHEST,
+            new ArmorItem(ModArmorMaterials.DRIP, ArmorItem.Type.CHESTPLATE,
                     new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item DRIP_LEGGINGS = registerItem("drip_leggings",
-            new ArmorItem(ModArmorMaterials.DRIP, EquipmentSlot.LEGS,
+            new ArmorItem(ModArmorMaterials.DRIP, ArmorItem.Type.LEGGINGS,
                     new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item DRIP_BOOTS = registerItem("drip_boots",
-            new ArmorItem(ModArmorMaterials.DRIP, EquipmentSlot.FEET,
+            new ArmorItem(ModArmorMaterials.DRIP, ArmorItem.Type.BOOTS,
                     new FabricItemSettings().rarity(Rarity.EPIC)));
 
     // Jugs
