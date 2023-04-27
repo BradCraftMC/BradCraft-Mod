@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "S": {
+      "item": "bradcraft:taco_shell"
+    }
+  },
+  "result": {
+    "item": "bradcraft:taco",
+    "count": 1
+  }
+}
