@@ -3,6 +3,7 @@ package net.stayer.bradcraft;
 import net.fabricmc.api.ModInitializer;
 //import net.stayer.bradcraft.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.stayer.bradcraft.item.ModItemGroup;
 import net.stayer.bradcraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class BradCraft implements ModInitializer {
 
 @Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		//ModBlocks.registerModBlocks();
 
