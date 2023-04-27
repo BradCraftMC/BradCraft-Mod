@@ -1,6 +1,7 @@
 package net.stayer.bradcraft.item;
 
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -37,14 +38,24 @@ public enum ModArmorMaterials implements ArmorMaterial {
         this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
     }
 
-    @Override
+    //@Override
     public int getDurability(EquipmentSlot slot) {
         return BASE_DURABILITY[slot.getEntitySlotId()] * this.durabilityMultiplier;
     }
 
-    @Override
+    //@Override
     public int getProtectionAmount(EquipmentSlot slot) {
         return this.protectionAmounts[slot.getEntitySlotId()];
+    }
+
+    @Override
+    public int getDurability(ArmorItem.Type type) {
+        return 0;
+    }
+
+    @Override
+    public int getProtection(ArmorItem.Type type) {
+        return 0;
     }
 
     @Override
