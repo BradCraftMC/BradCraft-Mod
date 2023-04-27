@@ -45,11 +45,11 @@ public class ModItems {
 
     // Jugs
     public static final Item JUG = registerItem("jug",
-            new BucketItem(Fluids.EMPTY, new FabricItemSettings().maxCount(1)));
+            new BucketItem(Fluids.EMPTY, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
     public static final Item WATER_JUG = registerItem("water_jug",
-            new BucketItem(Fluids.WATER, new FabricItemSettings().maxCount(1)));
+            new BucketItem(Fluids.WATER, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
     public static final Item LAVA_JUG = registerItem("lava_jug",
-            new BucketItem(Fluids.LAVA, new FabricItemSettings().maxCount(1)));
+            new BucketItem(Fluids.LAVA, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
     // Battery Acid
     // Food properties can be found in ModFoodComponents.java
