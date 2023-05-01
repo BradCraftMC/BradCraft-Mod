@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "food",
+  "ingredient": {
+    "item": "bradcraft:tater"
+  },
+  "result": "bradcraft:baked_tater",
+  "experience": 2.5,
+  "cookingtime": 200
+}
