@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "bradcraft:taco_shell"
+    },
+    "title": {
+      "translate": "advancements.items.taco_shell.title"
+    },
+    "description": {
+      "translate": "advancements.items.taco_shell.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bradcraft:items/bradcraft",
+  "criteria": {
+    "obtain_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bradcraft:taco_shell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_shell"
+    ]
+  ]
+}

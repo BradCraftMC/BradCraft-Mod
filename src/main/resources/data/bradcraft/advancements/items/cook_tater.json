@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "bradcraft:baked_tater"
+    },
+    "title": {
+      "translate": "advancements.items.cook_tater.title"
+    },
+    "description": {
+      "translate": "advancements.items.cook_tater.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bradcraft:items/eat_tater",
+  "criteria": {
+    "cook_a_tater": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bradcraft:baked_tater"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cook_a_tater"
+    ]
+  ]
+}

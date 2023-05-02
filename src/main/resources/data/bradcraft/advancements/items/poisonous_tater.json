@@ -1,27 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "bradcraft:taco"
+      "item": "bradcraft:poisonous_tater"
     },
     "title": {
-      "translate": "advancements.items.taco.title"
+      "translate": "advancements.items.poisonous_tater.title"
     },
     "description": {
-      "translate": "advancements.items.taco.description"
+      "translate": "advancements.items.poisonous_tater.description"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "bradcraft:items/taco_shell",
+  "parent": "bradcraft:items/cook_tater",
   "criteria": {
-    "eat_taco": {
+    "eat_poison_tater": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "items": [
-            "bradcraft:taco"
+            "bradcraft:poisonous_tater"
           ]
         }
       }
@@ -29,7 +29,7 @@
   },
   "requirements": [
     [
-      "eat_taco"
+      "eat_poison_tater"
     ]
   ]
 }

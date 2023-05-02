@@ -33,11 +33,26 @@
           }
         ]
       }
+    },
+    "eat_items": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "bradcraft:taco",
+            "bradcraft:taco_shell",
+            "bradcraft:tater",
+            "bradcraft:baked_tater",
+            "bradcraft:poisonous_tater"
+          ]
+        }
+      }
     }
   },
   "requirements": [
     [
-      "obtain_items"
+      "obtain_items",
+      "eat_items"
     ]
   ]
 }
