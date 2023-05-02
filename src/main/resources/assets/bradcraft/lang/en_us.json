@@ -17,5 +17,9 @@
   "item.bradcraft.baked_tater": "Baked Tater",
   "item.bradcraft.poisonous_tater": "Poisonous Tater",
   "item.bradcraft.fall_dude_egg": "Fall Dude Egg",
-  "item.bradcraft.water_bottle": "Water Bottle"
+  "item.bradcraft.water_bottle": "Water Bottle",
+  "advancements.items.bradcraft.title": "BradCraft v2",
+  "advancements.items.bradcraft.description": "Obtain any item found in BradCraft v2",
+  "advancements.items.taco.title": "Taco Tuesday!",
+  "advancements.items.taco.description": "Successfully craft and eat a taco (Epic Style)"
 }

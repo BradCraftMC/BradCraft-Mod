@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "bradcraft:taco"
+    },
+    "title": {
+      "translate": "advancements.items.taco.title"
+    },
+    "description": {
+      "translate": "advancements.items.taco.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bradcraft:items/bradcraft",
+  "criteria": {
+    "eat_taco": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "bradcraft:taco"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eat_taco"
+    ]
+  ]
+}
